@@ -1,6 +1,6 @@
-# Data - Benchmark: Library
+# Library
 
-In this benchmark, your job is to implement a library management system. The library should manage a collection of books. The user should be able to add a new book to the library, view the books in the library, lend a book, and return a book. Your program must keep track of each book's title, author(s), and who is borrowing it (if anyone is borrowing it).
+The library should manage a collection of books. The user should be able to add a new book to the library, view the books in the library, lend a book, and return a book. The program keeps track of each book's title, author(s), and who is borrowing it (if anyone is borrowing it).
 
 Example:
 
@@ -53,27 +53,3 @@ add [book], [view] inventory, [loan] book, [return] book, [quit]?
 ```
 
 
-### Rubric
-
-- [ ] Users can add books to the library
-- [ ] Users can view the library's inventory
-    - Viewing the inventory shows each book's title, author, and availability.
-- [ ] Users can loan out books
-    - A book can not be loaned out again without being returned first. 
-- [ ] Users can return books
-    - A book can only be returned by the borrowing user.
-- [ ] Users can quit
-- [ ] Books are modelled using a `Book` dataclass
-    - Each `Book` tracks: title, author(s), and borrower's name
-
-### Style Guide
-
-- [ ] Code should be formatted with the replit auto-formatter.
-- [ ] Variables should have meaningful names that accurately describe what they refer to.
-- [ ] No sloppy/unnecessary/commented out code.
-- [ ] Functions defined at the top of the file
-- [ ] Application is implemented inside `main` function that is called inside `if __name__ == '__main__':`.
-- [ ] Input is collected with input helper functions.
-- [ ] Input helpers use validation functions that don't contain side effects and are tested thoroughly.
-- [ ] Any significant pure logic is extracted and tested thoroughly.
-- [ ] All functions have type annotations and pass the type checker.
