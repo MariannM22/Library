@@ -8,46 +8,46 @@ Example:
 add [book], [view] inventory, [loan] book, [return] book, [quit]?
 > book
 Title?
-> How To Design Programs
+> Series of Unfortunate Events
 Author(s)?
-> Felleisen et al
+> Lemony Snickett
 add [book], [view] inventory, [loan] book, [return] book, [quit]?
 > book
 Title?
-> Structure and Intepretation of Computer Programs
+> The Hate U Give
 Author(s)?
-> Abelson and Sussman
+> Angie Thomas
 add [book], [view] inventory, [loan] book, [return] book, [quit]?
 > view
-1. [Available] How to Design Programs by Felleisen et al
-2. [Available] Structure and Intepretation of Computer Programs by Abelson and Sussman
+1. [Available] Series of Unfortunate Events by Lemony Snickett
+2. [Available] The Hate U Give by Angie Thomas
 add [book], [view] inventory, [loan] book, [return] book, [quit]?
 > loan
 Which book?
-1. How to Design Programs by Felleisen et al
-2. Structure and Intepretation of Computer Programs by Abelson and Sussman
+1. Series of Unfortunate Events by Lemony Snickett
+2. The Hate U Give by Angie Thomas
 > 2
 Borrower's name?
-> Nate
+> Mariann
 add [book], [view] inventory, [loan] book, [return] book, [quit]?
 > view
-1. [Available] How to Design Programs by Felleisen et al
-2. [Unavailable] Structure and Intepretation of Computer Programs by Abelson and Sussman
+1. [Available] Series of Unfortunate Events by Lemony Snickett
+2. [Unavailable] The Hate U Give by Angie Thomas
 > loan
 Which book?
-1. How to Design Programs by Felleisen et al
+1. Series of Unfortunate Events by Lemony Snickett
 > 1
 Borrower's name?
-> Etan
+> Mikala
 add [book], [view] inventory, [loan] book, [return] book, [quit]?
 > return
 Title?
-> Structure and Intepretation of Computer Programs
+> The Hate U Give
 Borrower's Name?
-> Nate
+> Mariann
 > view
-1. [Unavailable] How to Design Programs by Felleisen et al
-2. [Available] Structure and Intepretation of Computer Programs by Abelson and Sussman
+1. [Unavailable] Series of Unfortunate Events by Lemony Snickett
+2. [Available] The Hate U Give by Angie Thomas
 add [book], [view] inventory, [loan] book, [return] book, [quit]?
 > quit
 ```
